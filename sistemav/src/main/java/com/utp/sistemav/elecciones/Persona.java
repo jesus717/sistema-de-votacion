@@ -2,9 +2,9 @@
 package com.utp.sistemav.elecciones;
 
 public class Persona {
-    public String dni;
-    public String nombres;
-    public String apellidos;
+    private String dni;
+    private String nombres;
+    private String apellidos;
 
     public String getDni() {
         return dni;

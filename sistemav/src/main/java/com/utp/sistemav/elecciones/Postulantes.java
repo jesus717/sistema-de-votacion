@@ -2,8 +2,8 @@
 package com.utp.sistemav.elecciones;
 
 public class Postulantes extends Persona {
-    public String partido; 
-    public String[] propuestas; 
+    private String partido; 
+    private String propuesta; 
 
     public String getPartido() {
         return partido;
@@ -13,13 +13,15 @@ public class Postulantes extends Persona {
         this.partido = partido;
     }
 
-    public String[] getPropuestas() {
-        return propuestas;
+    public String getPropuesta() {
+        return propuesta;
     }
 
-    public void setPropuestas(String[] propuestas) {
-        this.propuestas = propuestas;
+    public void setPropuesta(String propuesta) {
+        this.propuesta = propuesta;
     }
+
+
 
     
 }

@@ -1,7 +1,7 @@
 package com.utp.sistemav.elecciones;
 
 public class Electores extends Persona {
-    public Boolean es_dni_electronico;
+    private Boolean es_dni_electronico;
 
     public Boolean getEs_dni_electronico() {
         return es_dni_electronico;
